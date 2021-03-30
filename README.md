@@ -1,35 +1,5 @@
 # AdvancedAndroid_ClassicalMusicQuiz
 
-This is the toy app for the Media Playback lesson of the [Advanced Android App Development course on Udacity](https://www.udacity.com/course/advanced-android-app-development--ud855).
-
-## How to use this repo while taking the course
-
-Each code repository in this class has a chain of commits that looks like this:
-
-![listofcommits](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe2e_listofcommits/listofcommits.png)
-
-These commits show every step you'll take to create the app. They include **Exercise** commits and **Solution** commits. 
-
-Exercise commits contain instructions for completing the exercise, while solution commits show the completed exercise. You can tell what a commit is by looking at its commit message. 
-
-For example, **TFCM.01-Exercise-AddGradleDependencies** is the first code step in the Firebase Cloud Messaging (FCM) lesson. This is the exercise commit, and the exercise is called Add Gradle Dependencies.
-
-Each commit also has a **branch** associated with it of the same name as the commit message, seen below:
-
-![branches](https://d17h27t6h515a5.cloudfront.net/topher/2017/April/590390fe_branches-ud855/branches-ud855.png
-)
-Access all branches from this tab
-
-![listofbranches](https://d17h27t6h515a5.cloudfront.net/topher/2017/March/58befe76_listofbranches/listofbranches.png
-)
-
-
-![branchesdropdown](https://d17h27t6h515a5.cloudfront.net/topher/2017/April/590391a3_branches-dropdown-ud855/branches-dropdown-ud855.png
-)
-
-
-The branches are also accessible from the drop-down in the "Code" tab
-
 
 ## Working with the Course Code
 
