@@ -13,7 +13,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
 package com.example.android.classicalmusicquiz;
 
 import android.content.Context;
@@ -123,7 +122,6 @@ class QuizUtils {
     static boolean userCorrect(int correctAnswer, int userAnswer){
         return userAnswer == correctAnswer;
     }
-
 
     /**
      * Helper method for ending the game.
