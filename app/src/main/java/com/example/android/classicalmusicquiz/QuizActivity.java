@@ -156,7 +156,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
 
         mMediaSession.setPlaybackState(mStateBuilder.build());
 
-
         // MySessionCallback has methods that handle callbacks from a media controller.
         mMediaSession.setCallback(new MySessionCallback());
 
@@ -204,7 +203,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
             play_pause = getString(R.string.play);
         }
 
-
         NotificationCompat.Action playPauseAction = new NotificationCompat.Action(
                 icon, play_pause,
                 MediaButtonReceiver.buildMediaButtonPendingIntent(this,
@@ -229,11 +227,9 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
                         .setMediaSession(mMediaSession.getSessionToken())
                         .setShowActionsInCompactView(0,1));
 
-
         mNotificationManager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
         mNotificationManager.notify(0, builder.build());
     }
-
 
     /**
      * Initialize ExoPlayer.
@@ -259,7 +255,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-
     /**
      * Release ExoPlayer.
      */
@@ -269,7 +264,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         mExoPlayer.release();
         mExoPlayer = null;
     }
-
 
     /**
      * The OnClick method for all of the answer buttons. The method uses the index of the button
