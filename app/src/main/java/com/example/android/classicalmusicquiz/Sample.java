@@ -1,5 +1,4 @@
 package com.example.android.classicalmusicquiz;
-
 /*
 * Copyright (C) 2017 The Android Open Source Project
 *
@@ -15,7 +14,6 @@ package com.example.android.classicalmusicquiz;
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
