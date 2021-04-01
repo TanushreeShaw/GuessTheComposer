@@ -13,7 +13,6 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
-
 package com.example.android.classicalmusicquiz;
 
 import android.app.NotificationManager;
@@ -75,16 +74,13 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
     private PlaybackStateCompat.Builder mStateBuilder;
     private NotificationManager mNotificationManager;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz);
 
-
         // Initialize the player view.
         mPlayerView = (SimpleExoPlayerView) findViewById(R.id.playerView);
-
 
         boolean isNewGame = !getIntent().hasExtra(REMAINING_SONGS_KEY);
 
@@ -189,7 +185,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         }
         return buttons;
     }
-
 
     /**
      * Shows Media Style notification, with actions that depend on the current MediaSession
@@ -355,7 +350,6 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         }
     }
 
-
     /**
      * Release the player when the activity is destroyed.
      */
@@ -365,8 +359,7 @@ public class QuizActivity extends AppCompatActivity implements View.OnClickListe
         releasePlayer();
         mMediaSession.setActive(false);
     }
-
-    
+   
     // ExoPlayer Event Listeners
 
     @Override
