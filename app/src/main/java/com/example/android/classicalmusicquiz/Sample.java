@@ -21,7 +21,6 @@ import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.util.JsonReader;
 import android.widget.Toast;
-
 import com.google.android.exoplayer2.upstream.DataSource;
 import com.google.android.exoplayer2.upstream.DataSourceInputStream;
 import com.google.android.exoplayer2.upstream.DataSpec;
